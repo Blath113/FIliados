@@ -1,0 +1,5 @@
+{
+  "name": "DeudaTrack - Registro de Deudores",
+  "description": "Aplicación para gestionar deudores, deudas y abonos con conversión automática de moneda (BS/$).",
+  "requestFramePermissions": []
+}
