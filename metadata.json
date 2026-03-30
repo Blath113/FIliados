@@ -1,5 +1,5 @@
 {
-  "name": "DeudaTrack - Registro de Deudores",
-  "description": "Aplicación para gestionar deudores, deudas y abonos con conversión automática de moneda (BS/$).",
+  "name": "DeudaTrack & Inventario",
+  "description": "Aplicación para gestionar deudores, deudas, abonos e inventario con conversión automática de moneda (BS/$) y tasas fijas.",
   "requestFramePermissions": []
 }

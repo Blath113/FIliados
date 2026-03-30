@@ -19,4 +19,23 @@ export interface Debtor {
 
 export interface AppConfig {
   exchangeRate: number;
+  inventoryItems: InventoryItem[];
+  budgetItems: BudgetItem[];
+}
+
+export interface BudgetItem {
+  id: string;
+  inventoryItemId: string;
+  quantity: number;
+  priority: 'low' | 'medium' | 'high';
+}
+
+export interface InventoryItem {
+  id: string;
+  name: string;
+  units: number;
+  costUSD: number;
+  priceUSD: number;
+  isRateLocked: boolean;
+  lockedRate?: number;
 }
